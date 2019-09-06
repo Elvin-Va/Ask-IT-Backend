@@ -2,11 +2,11 @@
 
 Backend for asking and aswering questions built with NodeJS, Express, JSX, ES6, passport, sequelize, postgress database, JWT Authentication ...
 
-To run it locally in the project directory, run:
+To run it locally in the project directory run:
 
 ### `npm install`
 
-to install all dependecies.
+to install all dependencies.
 
 Provide in .env DATABASE_URL and JWT_SECRET that can be any value.
 
