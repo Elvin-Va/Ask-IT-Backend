@@ -5,6 +5,7 @@ export function up(queryInterface, Sequelize) {
   const salt2 = createSalt();
   const salt3 = createSalt();
   return queryInterface.bulkInsert('Users', [{
+    id: 1,
     firstName: 'John',
     lastName: 'Doe',
     email: 'demo@demo.com',
@@ -14,6 +15,7 @@ export function up(queryInterface, Sequelize) {
     updatedAt: new Date(),
   },
   {
+    id: 2,
     firstName: 'Elvin',
     lastName: 'Valjevcic',
     email: 'elvin@antcolony.io',
@@ -23,6 +25,7 @@ export function up(queryInterface, Sequelize) {
     updatedAt: new Date(),
   },
   {
+    id: 3,
     firstName: 'John',
     lastName: 'Papa',
     email: 'papa@gmail.com',
